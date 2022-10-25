@@ -1,0 +1,201 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --font-principal: "Inter"
+}
+
+body{
+    background: var(--cor-de-fundo);
+    color: var(--branco-principal)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal{
+    background: url(./img/Background.png);
+    background-repeat: no-repeat;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container-botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    border: 2px solid var(--botao-azul);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 45px;
+    width: 512px;
+    padding: 16px;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container-aviso{
+    text-align: center;
+    color: var(--cinza-secundario)
+}
+
+.container-caixa{
+    margin: 0 6em;
+}
+
+.container-titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-imagem{
+    margin: 1em 0 2em 0;
+}
+
+
+/* ----------------------------------------------------------*/
+/*Configurações CSS da segunda página*/
+/* ----------------------------------------------------------*/
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+    /*border: 2px solid green;*/
+}
+
+
+.secundario-imagem{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao-texto{
+    text-align: left;
+}
+
+/* ----------------------------------------------------------*/
+/*Configurações CSS da terceira página*/
+/* ----------------------------------------------------------*/
+
+.descricao-texto{
+
+}
+
+.secundario-botao{
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.container-descricao{
+    padding: 2em;
+
+}
+
+
+/* ----------------------------------------------------------*/
+/*Configurações CSS da seção DISPOSITIVOS*/
+/* ----------------------------------------------------------*/
+
+.dispositivos{
+    text-align: center;
+
+}
+
+.dispositivos-titulo{
+    font-size: 48px;
+    color: var(--branco-principal)
+
+}
+
+.dispositivo-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+
+}
+
+.lista-item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+/* ----------------------------------------------------------*/
+/*Configurações CSS da seção RODAPÉ*/
+/* ----------------------------------------------------------*/
+
+.rodape{
+    text-align: center;
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.rodape-logo{
+    margin: 5em 0 1em 0;
+}
+
+.class-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: em;
+}
+
+.lista-link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 2em;
+}
+
+.lista-link a:hover{
+    color: var(--botao-azul);
+    text-decoration: underline;
+}
+
+.lista-link a:active{
+    color: purple;
+}
+
+
+.rodape-texto{
+    margin: 1em 15%;
+    color: var(--branco-principal);
+}
